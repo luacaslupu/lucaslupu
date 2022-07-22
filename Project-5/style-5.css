@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 2331px;
+    width: 1280px;
+    left: -720px;
+    top: -512px;
+}
+.bg-image{
+    height: 771px;
+    width: 1280px;
+    position:absolute;
+    background: url(./aaabbb.jpg);
+    background-position: top;
+background-size: cover;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.logo h1{
+    font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif, Maven Pro;
+    font-size: 45px;
+    text-align: left;
+    letter-spacing: 5px;
+    font-weight: 400;
+    color: #fff;
+}
+.a2{
+    height: 37px;
+    width: 74px;
+    margin-left: 370px;
+    margin-top: -40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+}
+.a2 img:hover{
+    width: 23px;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.srch{
+    margin-left: 444px;
+    margin-top: -40px;
+    position: absolute;
+    width: 550px;
+    height: 37px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+}
+.srch:focus{
+    outline: none;
+}
+.cart{margin-left: 1030px;
+margin-top: -30px;
+position: absolute;
+}
+.menu{margin-left: 1180px;
+    margin-top: -30px;
+    position: absolute;
+    }
+.a4{
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
+    font-size: 20px;
+    transition: 0.4s ease;
+}
+.a4:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.a5{
+    width: 390px;
+    height: 135px;
+    margin-left: 680px;
+    margin-top: -200px;
+    position: absolute;
+    font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif, Maven Pro;
+    color: #f2e8df;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.line2{
+    height: 0px;
+    width: 165px;
+    border: 1px solid #E6DCD4
+}
+.bg-image .line{
+    height: 286px;
+    width: 0px;
+    margin-left: 640px;
+    margin-top: 120px;
+    border: 1px solid #E6DCD4;
+}
+.a1{
+    margin-top: -270px;
+    margin-left: 140px;
+    font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif, Maven Pro;
+    Font-size: 26px;
+    Line-height: 350%;
+    text-align: left;
+    letter-spacing: 4px;
+    vertical-align: Top;
+    color: #F2E8DF;
+}
+.a1 h1{
+    font-weight: 300;
+}
+.btn{
+    width: 155px;
+    height: 55px;
+    margin-left: 250px;
+}
+.e{
+    width: 150px;
+    height: 50px;
+    background-color: #BDA18C;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    color: #3F352D;
+    box-shadow: inset 5px 5px 5px -1px rgba(10, 99, 69, 0.16), inset -5px -5px 5px -1px rgba(255, 255, 255, 0.70);
+    transition: 0.2s ease;
+}
+.e:hover{
+    background: #b98965dd;
+    width: 155px;
+    height: 55px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn :hover{
+    margin-top: -2.5px;
+    margin-left: -2.5px;
+}
+
+.feid1{
+    width: 1280px;
+    height: 61px;
+    margin-top: 710px;
+    position: absolute;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.99)0%, rgba(255, 255, 255, 0)100%)
+}
+.feid2{
+    width: 1280px;
+    height: 61px;
+    margin-top: 720px;
+    position: absolute;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.99)0%, rgba(255, 255, 255, 0)100%)
+}
+.feid3{
+    width: 1280px;
+    height: 61px;
+    margin-top: 730px;
+    position: absolute;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.99)0%, rgba(255, 255, 255, 0)100%)
+}
+.explore{
+    width: 1280px;
+    height: 1560px;
+    margin-top: 771px;
+    position: absolute;
+}
+.b{
+    width: 1280px;
+    height: 70px;
+    margin-top: 130px;
+    position: absolute;
+}
+.b1{
+    width: 160px;
+    height: 60px;
+    margin-left: 128px;
+    text-align: center;
+    position: absolute;
+}
+.ba1{
+    font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif, Maven Pro;
+    color: #3F352D;
+}
+.bb1{
+    width: 160px;
+    height: 0px;
+    border: 1px solid #BDA18C;
+}
+.b2{
+    width: 160px;
+    height: 60px;
+    margin-left:416px;
+    text-align: center;
+    position: absolute;
+}
+.ba2{
+    font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif, Maven Pro;
+    color: #3F352D;
+}
+.bb2{
+    width: 160px;
+    height: 0px;
+    border: 1px solid #BDA18C;
+}
+.b3{
+    width: 160px;
+    height: 60px;
+    margin-left: 704px;
+    text-align: center;
+    position: absolute;
+}
+.ba3{
+    font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif, Maven Pro;
+    color: #3F352D;
+}
+.bb3{
+    width: 160px;
+    height: 0px;
+    border: 1px solid #BDA18C;
+}
+.b4{
+    width: 160px;
+    height: 60px;
+    margin-left: 992px;
+    text-align: center;
+    position: absolute;
+}
+.ba4{
+    font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif, Maven Pro;
+    color: #3F352D;
+}
+.bb4{
+    width: 160px;
+    height: 0px;
+    border: 1px solid #BDA18C;
+}
+.imgs{
+    width: 1280px;
+    height: 400px;
+    margin-top: 200px;
+    position: absolute;
+}
+.i1{
+    height: 348px;
+    margin-top: 20px;
+    margin-left: 78px;
+    position: absolute;
+}
+.i1:hover{
+    box-shadow: 5px 5px 5px -1px rgba(10, 99, 69, 0.16), -5px -5px 5px -1px rgba(255, 255, 255, 0.70);
+}
+.im1{
+    width: 260px;
+}
+.i2{
+    height: 348px;
+    margin-top: 20px;
+    margin-left: 366px;
+    position: absolute;
+}
+.i2:hover{
+    box-shadow: 5px 5px 5px -1px rgba(10, 99, 69, 0.16), -5px -5px 5px -1px rgba(255, 255, 255, 0.70);
+}
+.im2{
+    width: 260px;
+}
+.i3{
+    height: 348px;
+    margin-top: 20px;
+    margin-left: 654px;
+    position: absolute;
+}
+.i3:hover{
+    box-shadow: 5px 5px 5px -1px rgba(10, 99, 69, 0.16), -5px -5px 5px -1px rgba(255, 255, 255, 0.70);
+}
+.im3{
+    width: 260px;
+}
+.i4{
+    height: 348px;
+    margin-top: 20px;
+    margin-left: 942px;
+    position: absolute;
+}
+.i4:hover{
+    box-shadow: 5px 5px 5px -1px rgba(10, 99, 69, 0.16), -5px -5px 5px -1px rgba(255, 255, 255, 0.70);
+}
+.im4{
+    width: 260px;
+}
+.c{
+    width: 1280px;
+    height: 70px;
+    margin-top: 600px;
+    position: absolute;
+}
+.c1{
+    width: 160px;
+    height: 60px;
+    margin-left: 78px;
+    text-align: left;
+    position: absolute;
+}
+.c2{
+    width: 160px;
+    height: 60px;
+    margin-left: 366px;
+    text-align: left;
+    position: absolute;
+}
+.ca2{
+    width: 75px;
+    height: 60px;
+}
+.rate2{
+    width: 95px;
+    margin-left: 75px;
+    position: absolute;
+    margin-top: -65px;
+}
+.c1{
+    width: 160px;
+    height: 60px;
+    margin-left: 78px;
+    text-align: left;
+    position: absolute;
+}
+.c3{
+    width: 160px;
+    height: 60px;
+    margin-left: 654px;
+    text-align: left;
+    position: absolute;
+}
+.ca3{
+    width: 75px;
+    height: 60px;
+}
+.rate3{
+    width: 95px;
+    margin-left: 85px;
+    position: absolute;
+    margin-top: -65px;
+}
+.c4{
+    width: 180px;
+    height: 60px;
+    margin-left: 942px;
+    text-align: left;
+    position: absolute;
+}
+.ca4{
+    width: 145px;
+    height: 60px;
+}
+.rate4{
+    width: 75px;
+    margin-left: 145px;
+    position: absolute;
+    margin-top: -65px;
+}
+.d{
+    width: 75px;
+    height: 75px;
+    margin-left: 1045px;
+    position: absolute;
+    margin-top: 700px;
+    background-color: transparent;
+    border: 1px solid #d9c2b0;
+}
+.f :hover{
+    background: #e6dcd4;
+    box-shadow: none;
+}
+.d:hover{
+    background: #e6dcd4;
+    box-shadow: inset 5px 5px 5px -1px rgba(10, 99, 69, 0.16), inset -5px -5px 5px -1px rgba(255, 255, 255, 0.70);
+}
+footer{
+    width: 1280px;
+    height: 721px;
+    margin-top: 1610px;
+    position: absolute;
+    background: #e6dcd4;
+}
+.au{
+
+    width: 265px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+}
+.au p{
+    font-size: 18px;
+    font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif, Maven Pro;
+    line-height: 40px;
+    letter-spacing: 4px;
+}
+.au p b{
+    font-size: 30px;
+}
+.cs{
+
+    width: 400px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 500px;
+    position: absolute;
+}
+.cs p{
+    font-size: 18px;
+    font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif, Maven Pro;
+    line-height: 40px;
+    letter-spacing: 4px;
+}
+.cs p b{
+    font-size: 30px;
+}
+.cu{
+
+    width: 265px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 920px;
+    position: absolute;
+}
+.cu p{
+    font-size: 18px;
+    font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif, Maven Pro;
+    line-height: 40px;
+    letter-spacing: 4px;
+}
+.cu p b{
+    font-size: 30px;
+}
+.cu button{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #BDA18C;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    color: #3F352D;
+    box-shadow: inset 5px 5px 5px -1px rgba(10, 99, 69, 0.16), inset -5px -5px 5px -1px rgba(255, 255, 255, 0.70);
+}
+.detail{
+    margin-top: 700px;
+    margin-left: 750px;
+}
